@@ -1,0 +1,11 @@
+{
+    "name":"crew_wait",
+    "version":"1.0",
+    "path":".",
+    "dependencies":[],
+    "metadata":{
+        "author":"Tim Reynolds",
+        "version":"1.0",
+        "description":"This mod will make your crew less likely to stop following you."
+    }
+}

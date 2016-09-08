@@ -1,0 +1,7 @@
+[
+    {
+        "op":"add",
+        "path":"/scripts/-",
+        "value":"/scripts/companions/crew_wait.lua"
+    }
+]
