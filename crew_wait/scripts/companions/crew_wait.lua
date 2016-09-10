@@ -1,10 +1,8 @@
 function recruitable.confirmFollow(skipNotification)
-  sb.logInfo("Confirm Follow From Patch")
   if not skipNotification then
     local t = os.clock()
     local first_run = false
     if not self.last_follow then
-      sb.logInfo("First Run Confirm Follow From Patch")
       first_run = true
       self.last_follow = t
     end
@@ -34,7 +32,6 @@ end
 
 
 function recruitable.confirmUnfollow(skipNotification)
-  sb.logInfo("Confirm Unfollow In My Patch")
   if not skipNotification then
     local t = os.clock()
     local first_run = false
